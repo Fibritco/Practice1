@@ -2,8 +2,6 @@
 Średnia + Wariancja
 """
 
-from statistics import variance
-
 
 def mean_(numbers):
     N = len(numbers)
@@ -32,8 +30,8 @@ def variance_(numbers):
 
     # Wariancja
     sum_sq_li = sum(sq_li)
-    variance = sum_sq_li/len(numbers)
-    return variance
+    varian = sum_sq_li/len(numbers)
+    return varian
 
 lii = [1, 2, 3, 5, 7, 3, 5, 6, 8, 9, 1, 1, 10]
 
